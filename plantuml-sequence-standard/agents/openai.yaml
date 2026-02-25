@@ -1,0 +1,9 @@
+version: 1
+interface:
+  display_name: PlantUML Sequence Standard
+  short_description: Enforce strict conventions for PlantUML sequence diagrams in -seq.puml files, excluding activity/swimlane/state diagrams.
+  default_prompt: >-
+    Create or edit a PlantUML sequence diagram using this standard. Apply only
+    to files ending with -seq.puml, enforce one return per -> message, group
+    color syntax, and 2-space indentation rules. If content is activity,
+    swimlane, or state-transition style, do not apply this skill.
